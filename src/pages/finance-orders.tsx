@@ -7,7 +7,6 @@ export default function FinanceOrder() {
       <FinanceHeader />
       <Box
         w='full'
-        h='65vh'
         display='flex'
         alignItems='flex-start'
         justifyContent='flex-end'

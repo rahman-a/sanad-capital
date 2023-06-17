@@ -11,12 +11,14 @@ export interface INavigationProps {
   setPageTitle: React.Dispatch<React.SetStateAction<string>>
   setActiveItem: React.Dispatch<React.SetStateAction<number | null>>
   activeItem: number | null
+  onClose?: () => void
 }
 
 export default function Navigation({
   setPageTitle,
   setActiveItem,
   activeItem,
+  onClose,
 }: INavigationProps) {
   const [isCollapsed, setIsCollapsed] = React.useState<boolean>(true)
   return (
@@ -52,6 +54,7 @@ export default function Navigation({
                 onClick={() => {
                   setActiveItem(item.id)
                   setPageTitle(item.label)
+                  onClose && onClose()
                   if (item.children && item.children.length > 0) {
                     setIsCollapsed(!isCollapsed)
                     return

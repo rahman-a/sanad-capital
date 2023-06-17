@@ -33,6 +33,7 @@ export default function Drawer({
             setPageTitle={setPageTitle}
             setActiveItem={setActiveItem}
             activeItem={activeItem}
+            onClose={onClose}
           />
         </DrawerBody>
       </DrawerContent>
