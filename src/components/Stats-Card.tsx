@@ -15,13 +15,12 @@ export default function StatsCard({
 }: IStatsCardProps) {
   return (
     <VStack
-      width={{ base: '100%', md: '45%', lg: 80 }}
-      borderRadius='xl'
-      boxShadow='sm'
-      border='1px solid #EDF2F7'
+      minWidth={{ base: '100%', md: '48%', lg: '100%', xl: '48%' }}
       alignItems='normal'
       p={4}
       spacing={5}
+      mb={{ base: 2, lg: 4, xl: 6 }}
+      className='surface-border-shadow'
       {...props}
     >
       <HStack justifyContent='space-between' alignItems='center'>

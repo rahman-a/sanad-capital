@@ -515,29 +515,83 @@ export const PhoneIcon = (props: any) => (
 )
 
 /***********************************************/
-/*               UserIcon               */
+/*               UserClosedIcon               */
 /***********************************************/
-export const UserIcon = (props: any) => (
+export const UserClosedIcon = (props: any) => (
   <Icon
     width='1.5em'
-    viewBox='0 0 16 16'
+    viewBox='0 0 11 12'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
     {...props}
   >
     <path
-      d='M7.62402 7.375C9.00474 7.375 10.124 6.25571 10.124 4.875C10.124 3.49429 9.00474 2.375 7.62402 2.375C6.24331 2.375 5.12402 3.49429 5.12402 4.875C5.12402 6.25571 6.24331 7.375 7.62402 7.375Z'
+      d='M6 5C7.10457 5 8 4.10457 8 3C8 1.89543 7.10457 1 6 1C4.89543 1 4 1.89543 4 3C4 4.10457 4.89543 5 6 5Z'
       stroke='currentColor'
-      strokeWidth='1.5'
       strokeLinecap='round'
       strokeLinejoin='round'
     />
     <path
-      d='M3.87402 13.625V12.375C3.87402 11.712 4.13742 11.0761 4.60626 10.6072C5.0751 10.1384 5.71098 9.875 6.37402 9.875H8.87402C9.53706 9.875 10.1729 10.1384 10.6418 10.6072C11.1106 11.0761 11.374 11.712 11.374 12.375V13.625'
+      d='M1 11V9.66667C1 8.95942 1.31607 8.28115 1.87868 7.78105C2.44129 7.28095 3.20435 7 4 7H7C7.79565 7 8.55871 7.28095 9.12132 7.78105C9.68393 8.28115 10 8.95942 10 9.66667V11'
       stroke='currentColor'
-      strokeWidth='1.5'
       strokeLinecap='round'
       strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               UserWideIcon               */
+/***********************************************/
+export const UserWideIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    viewBox='0 0 12 12'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M1.26074 11.4167V10.7396C1.26074 10.1172 1.38334 9.50086 1.62152 8.92582C1.85971 8.35079 2.20882 7.8283 2.64893 7.38819C3.08905 6.94808 3.61153 6.59897 4.18657 6.36078C4.7616 6.12259 5.37791 6 6.00033 6C6.62274 6 7.23905 6.12259 7.81409 6.36078C8.38912 6.59897 8.91161 6.94808 9.35172 7.38819C9.79183 7.8283 10.1409 8.35079 10.3791 8.92582C10.6173 9.50086 10.7399 10.1172 10.7399 10.7396V11.4167'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M6.00033 6.00065C6.71862 6.00065 7.4075 5.71531 7.91541 5.2074C8.42332 4.69949 8.70866 4.01061 8.70866 3.29232C8.70866 2.57402 8.42332 1.88515 7.91541 1.37724C7.4075 0.869326 6.71862 0.583984 6.00033 0.583984C5.28203 0.583984 4.59316 0.869326 4.08524 1.37724C3.57733 1.88515 3.29199 2.57402 3.29199 3.29232C3.29199 4.01061 3.57733 4.69949 4.08524 5.2074C4.59316 5.71531 5.28203 6.00065 6.00033 6.00065V6.00065Z'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               CalenderIcon               */
+/***********************************************/
+export const CalenderIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 11 10'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M10 1.69922H1.00019L1.00011 2.29921V8.89913L1 9.49913H10V8.89913V2.29921V1.69922Z'
+      stroke='currentColor'
+      strokeLinecap='square'
+    />
+    <path d='M1 4.09766H9.99989' stroke='currentColor' strokeLinecap='square' />
+    <path
+      d='M3.39844 2.59997V0.5'
+      stroke='currentColor'
+      strokeLinecap='square'
+    />
+    <path
+      d='M7.59961 2.59997V0.5'
+      stroke='currentColor'
+      strokeLinecap='square'
     />
   </Icon>
 )
@@ -629,6 +683,489 @@ export const ArrowNarrowRightIcon = (props: any) => (
       d='M6 5.33398L3.33333 8.00065'
       stroke='currentColor'
       strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               EyeIcon                       */
+/***********************************************/
+export const EyeIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    height='17'
+    viewBox='0 0 16 17'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M7.99961 9.89961C8.77281 9.89961 9.39961 9.27281 9.39961 8.49961C9.39961 7.72641 8.77281 7.09961 7.99961 7.09961C7.22641 7.09961 6.59961 7.72641 6.59961 8.49961C6.59961 9.27281 7.22641 9.89961 7.99961 9.89961Z'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M15 8.49961C13.1331 11.7665 10.8 13.3996 8 13.3996C5.2 13.3996 2.8669 11.7665 1 8.49961C2.8669 5.23271 5.2 3.59961 8 3.59961C10.8 3.59961 13.1331 5.23271 15 8.49961Z'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               PaperSheetIcon               */
+/***********************************************/
+export const PaperSheetIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    height='22'
+    viewBox='0 0 20 22'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <g clipPath='url(#clip0_1577_30753)'>
+      <path
+        d='M13.689 22H2.91725C2.89895 21.9898 2.88182 21.974 2.86235 21.9697C1.37571 21.6455 0.500006 20.55 0.500006 19.0128C0.500006 14.5764 0.500006 10.1404 0.500006 5.70432C0.500006 5.58996 0.499617 5.4752 0.505068 5.36084C0.568536 4.02912 1.65996 2.8855 2.96709 2.79441C3.27275 2.77311 3.58114 2.79125 3.88407 2.79125C3.94754 1.21307 5.29907 -0.0267707 6.8188 0.000439415C9.39725 0.0465784 11.9769 0.0114812 14.5561 0.0185795C14.6585 0.0185795 14.7924 0.0737885 14.859 0.150292C16.3745 1.89687 17.8841 3.64936 19.3886 5.4054C19.4541 5.48151 19.493 5.60652 19.4946 5.70944C19.5039 6.36762 19.4992 7.02579 19.4992 7.68435C19.4992 10.5966 19.5008 13.5085 19.4984 16.4208C19.4973 17.7943 18.4876 19.001 17.1501 19.2112C16.8121 19.2644 16.464 19.2518 16.1144 19.27C16.0583 20.2038 15.637 20.9298 14.9069 21.4834C14.5432 21.7591 14.1227 21.894 13.6893 22H13.689ZM13.3923 1.38737H13.1357C11.0229 1.38737 8.90975 1.38737 6.797 1.38737C5.8368 1.38737 5.24962 1.97889 5.24962 2.94663C5.24962 7.40436 5.24962 11.8625 5.24962 16.3202C5.24962 17.2777 5.83796 17.8775 6.77753 17.8775C10.0565 17.8775 13.335 17.8775 16.6139 17.8775C17.5449 17.8775 18.1415 17.2777 18.1415 16.3411C18.1415 13.2715 18.1415 10.2019 18.1415 7.13187V6.88382C17.7957 6.88382 17.4725 6.88619 17.149 6.88343C16.7039 6.87948 16.2526 6.91852 15.8153 6.8574C14.3813 6.65746 13.3926 5.47599 13.3919 4.01177C13.3915 3.14696 13.3919 2.28175 13.3919 1.38697L13.3923 1.38737ZM14.7418 19.2518H14.4794C11.9002 19.2518 9.32132 19.2518 6.7421 19.251C6.59413 19.251 6.44383 19.251 6.2986 19.2274C4.87893 18.9931 3.89303 17.8128 3.89303 16.3518C3.89303 12.3736 3.89303 8.39536 3.89303 4.41716V4.11745C3.52468 4.14742 3.1793 4.1352 2.85417 4.21131C2.23039 4.35682 1.85776 4.91562 1.85776 5.62979C1.85698 10.1159 1.85737 14.6024 1.85776 19.0886C1.85776 20.0259 2.45351 20.6261 3.38373 20.6265C5.93453 20.6265 8.48533 20.6265 11.0361 20.6265C11.8063 20.6265 12.5765 20.6324 13.3467 20.6246C14.0959 20.6171 14.6924 20.037 14.7422 19.2522L14.7418 19.2518ZM14.7492 1.40945C14.7492 2.07669 14.7551 2.6765 14.7477 3.27591C14.7395 3.93329 14.9634 4.50747 15.3442 5.02485C15.5844 5.35138 15.8893 5.53711 16.3196 5.51661C16.862 5.49058 17.4067 5.51069 17.9507 5.50951C18.0013 5.50951 18.0519 5.49886 18.1259 5.49058C17.0014 4.13126 15.8963 2.79599 14.7496 1.40945H14.7492Z'
+        fill='currentColor'
+      />
+      <path
+        d='M11.6889 14.4467C10.6788 14.4467 9.6688 14.4479 8.65876 14.4464C8.36127 14.446 8.14205 14.3056 8.02213 14.0319C7.90921 13.7732 7.95554 13.5259 8.1366 13.3118C8.28418 13.1371 8.48315 13.0744 8.70509 13.0744C9.05826 13.0744 9.41142 13.0744 9.76458 13.0744C11.375 13.0744 12.9851 13.0732 14.5956 13.0768C14.728 13.0768 14.8674 13.087 14.9912 13.1292C15.2867 13.229 15.467 13.5531 15.4207 13.8623C15.37 14.1999 15.0971 14.4436 14.74 14.4452C13.723 14.4503 12.7059 14.4467 11.6889 14.4471V14.4467Z'
+        fill='currentColor'
+      />
+      <path
+        d='M11.6863 11.0117C10.6692 11.0117 9.65219 11.0153 8.63514 11.0098C8.2995 11.0078 8.03667 10.7751 7.97476 10.4549C7.91713 10.1564 8.07327 9.83616 8.35829 9.71668C8.47822 9.6662 8.61762 9.64688 8.74923 9.64372C9.14444 9.63465 9.54005 9.64057 9.93566 9.64057C11.4893 9.64057 13.0433 9.63938 14.5969 9.64293C14.7293 9.64293 14.8683 9.65476 14.9925 9.69696C15.2869 9.79673 15.4671 10.1233 15.42 10.4316C15.3721 10.7459 15.1159 10.9928 14.8005 11.0074C14.5396 11.0196 14.278 11.0133 14.0167 11.0137C13.2399 11.0141 12.4631 11.0137 11.6859 11.0137V11.0121L11.6863 11.0117Z'
+        fill='currentColor'
+      />
+    </g>
+    <defs>
+      <clipPath id='clip0_1577_30753'>
+        <rect width='19' height='22' fill='white' transform='translate(0.5)' />
+      </clipPath>
+    </defs>
+  </Icon>
+)
+
+/***********************************************/
+/*               ِِِVisaIcon                      */
+/***********************************************/
+export const VisaIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    viewBox='0 0 53 16'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M38.5279 0.655382C37.2962 0.213262 35.9942 -0.00859599 34.6833 0.00025473C30.4439 0.00025473 27.4499 2.10397 27.4287 5.12383C27.4022 7.34239 29.5563 8.59261 31.1858 9.33387C32.8577 10.096 33.4168 10.5763 33.4115 11.2575C33.4009 12.2937 32.0761 12.7635 30.844 12.7635C29.1509 12.7635 28.2262 12.5312 26.8034 11.9492L26.2761 11.7064L25.6746 15.183C26.7053 15.6059 28.5627 15.9687 30.481 16C34.988 16 37.9344 13.9093 37.9688 10.6963C38.0059 8.92409 36.8401 7.58512 34.3865 6.47845C32.8948 5.76068 31.9701 5.28043 31.9701 4.55222C31.9701 3.90753 32.7623 3.21847 34.4183 3.21847C35.5205 3.19221 36.6158 3.3959 37.6323 3.81618L38.0297 3.99105L38.6312 0.631891L38.5279 0.655382ZM49.529 0.282142H46.217C45.1863 0.282142 44.41 0.56142 43.9596 1.56891L37.5899 15.7834H42.0969L42.9977 13.4526L48.4983 13.4578C48.6282 14.0033 49.0256 15.7834 49.0256 15.7834H53L49.529 0.282142ZM21.3319 0.151638H25.627L22.9403 15.6607H18.6506L21.3319 0.146418V0.151638ZM10.4288 8.69963L10.874 10.8529L15.0709 0.282142H19.6203L12.8612 15.7625H8.3224L4.61296 2.6547C4.55288 2.43856 4.41179 2.25293 4.21817 2.13529C2.88118 1.45495 1.46456 0.938647 0 0.597959L0.0582911 0.2717H6.9711C7.90906 0.308241 8.6642 0.59796 8.91591 1.58457L10.4262 8.70746V8.69963H10.4288ZM44.2298 10.2813L45.9415 5.94339C45.9203 5.99037 46.2939 5.04813 46.5111 4.46609L46.8052 5.80506L47.7988 10.2787H44.2272V10.2813H44.2298Z'
+      fill='currentColor'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               ِِِCardReceiveIcon               */
+/***********************************************/
+export const CardReceiveIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    viewBox='0 0 25 24'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M2.66699 8.5H15.167'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M6.66699 16.5H8.66699'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M11.167 16.5H15.167'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M22.667 14.03V16.11C22.667 19.62 21.777 20.5 18.227 20.5H7.10699C3.55699 20.5 2.66699 19.62 2.66699 16.11V7.89C2.66699 4.38 3.55699 3.5 7.10699 3.5H15.167'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M20.667 3.5V9.5L22.667 7.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M20.667 9.5L18.667 7.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               ِِِVisaIcon                      */
+/***********************************************/
+export const CardSendIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    viewBox='0 0 24 24'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M2 8.5H14.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M6 16.5H8'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M10.5 16.5H14.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M22 14.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H14.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M20 9.5V3.5L22 5.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M20 3.5L18 5.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               ِِِCheckMarkIcon                 */
+/***********************************************/
+export const CheckMarkIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    viewBox='0 0 18 19'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M8.75 18.25C13.5826 18.25 17.5 14.3326 17.5 9.5C17.5 4.66738 13.5826 0.75 8.75 0.75C3.91738 0.75 0 4.66738 0 9.5C0 14.3326 3.91738 18.25 8.75 18.25Z'
+      fill='currentColor'
+    />
+    <path
+      d='M4.79004 10.066L7.0528 12.3288L12.7097 6.67188'
+      stroke='white'
+      strokeWidth='1.16667'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               MoneyIcon                   */
+/***********************************************/
+export const MoneyIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 17 16'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M11.833 13.6673H5.16634C3.16634 13.6673 1.83301 12.6673 1.83301 10.334V5.66732C1.83301 3.33398 3.16634 2.33398 5.16634 2.33398H11.833C13.833 2.33398 15.1663 3.33398 15.1663 5.66732V10.334C15.1663 12.6673 13.833 13.6673 11.833 13.6673Z'
+      stroke='currentColor'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M8.5 10C9.60457 10 10.5 9.10457 10.5 8C10.5 6.89543 9.60457 6 8.5 6C7.39543 6 6.5 6.89543 6.5 8C6.5 9.10457 7.39543 10 8.5 10Z'
+      stroke='currentColor'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M4.16699 6.33398V9.66732'
+      stroke='currentColor'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M12.833 6.33398V9.66732'
+      stroke='currentColor'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               ِِِPlusCircleIcon                 */
+/***********************************************/
+export const PlusCircleIcon = (props: any) => (
+  <Icon
+    width='1.5em'
+    viewBox='0 0 24 24'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      fill='currentColor'
+      d='M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm0 19.6a9.3 9.3 0 1 1 9.3-9.3 9.31 9.31 0 0 1-9.3 9.3zM13 12h5v1h-5v5h-1v-5H7v-1h5V7h1z'
+    />
+    <path fill='none' d='M0 0h24v24H0z' />
+  </Icon>
+)
+
+/***********************************************/
+/*               BinIcon               */
+/***********************************************/
+export const BinIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 17 16'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M12.7621 14.9232H4.2365C3.91348 14.9232 3.60369 14.8017 3.37528 14.5853C3.14687 14.3689 3.01855 14.0754 3.01855 13.7694V3.38477H13.9801V13.7694C13.9801 14.0754 13.8518 14.3689 13.6234 14.5853C13.395 14.8017 13.0852 14.9232 12.7621 14.9232Z'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M6.67285 11.4611V6.8457'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M10.3262 11.4611V6.8457'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M0.583008 3.38477H16.4163'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M10.3269 1.07617H6.67303C6.35001 1.07617 6.04022 1.19774 5.81181 1.41413C5.5834 1.63051 5.45508 1.924 5.45508 2.23002V3.38386H11.5448V2.23002C11.5448 1.924 11.4165 1.63051 11.1881 1.41413C10.9597 1.19774 10.6499 1.07617 10.3269 1.07617Z'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               BookmarkIcon               */
+/***********************************************/
+export const BookmarkIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 20 21'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      fillRule='evenodd'
+      clipRule='evenodd'
+      d='M16.449 5.33636C16.449 3.04396 14.8818 2.125 12.6253 2.125H7.32623C5.1391 2.125 3.5 2.98131 3.5 5.18348V17.4533C3.5 18.0582 4.15079 18.4391 4.67794 18.1434L9.99624 15.1601L15.2686 18.1384C15.7966 18.4358 16.449 18.0548 16.449 17.4491V5.33636Z'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               FilterIcon                    */
+/***********************************************/
+export const FilterIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 12 12'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <g clipPath='url(#clip0_1635_28509)'>
+      <path
+        d='M5.55672 5.72079V5.56215L5.44799 5.44664L2.03672 1.82238V1.41367H10.9167V1.82238L7.50545 5.44664L7.39672 5.56215V5.72079V10.5957L5.55672 9.49171V5.72079Z'
+        stroke='currentColor'
+        strokeWidth='0.8'
+      />
+    </g>
+    <defs>
+      <clipPath id='clip0_1635_28509'>
+        <rect
+          width='11'
+          height='11'
+          fill='white'
+          transform='translate(0.976562 0.574219)'
+        />
+      </clipPath>
+    </defs>
+  </Icon>
+)
+
+/***********************************************/
+/*               SuiteCaseIcon                 */
+/***********************************************/
+export const SuiteCaseIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 21 21'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M2.16699 7.58789H18.8337'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M5.5 14.2539H7.16667'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M9.25 14.2539H12.5833'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeMiterlimit='10'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M5.86699 3.41992H15.1253C18.092 3.41992 18.8337 4.15326 18.8337 7.07826V13.9199C18.8337 16.8449 18.092 17.5783 15.1337 17.5783H5.86699C2.90866 17.5866 2.16699 16.8533 2.16699 13.9283V7.07826C2.16699 4.15326 2.90866 3.41992 5.86699 3.41992Z'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               DollarIcon                   */
+/***********************************************/
+export const DollarIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 21 15'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M18.4441 1.38867H2.55523C1.88022 1.38867 1.33301 1.93588 1.33301 2.61089V12.3887C1.33301 13.0637 1.88022 13.6109 2.55523 13.6109H18.4441C19.1191 13.6109 19.6663 13.0637 19.6663 12.3887V2.61089C19.6663 1.93588 19.1191 1.38867 18.4441 1.38867Z'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M10.3605 9.92795C11.7105 9.92795 12.8049 8.83354 12.8049 7.48351C12.8049 6.13348 11.7105 5.03906 10.3605 5.03906C9.01043 5.03906 7.91602 6.13348 7.91602 7.48351C7.91602 8.83354 9.01043 9.92795 10.3605 9.92795Z'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+  </Icon>
+)
+
+/***********************************************/
+/*               ArrowLeftIcon                   */
+/***********************************************/
+export const ArrowLeftIcon = (props: any) => (
+  <Icon
+    width='1em'
+    viewBox='0 0 20 21'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
+    <path
+      d='M9.55078 3.44922L2.50006 10.4999L9.55078 17.5507'
+      stroke='currentColor'
+      strokeWidth='1.5'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    />
+    <path
+      d='M2.50008 10.5L17.5 10.5'
+      stroke='currentColor'
+      strokeWidth='1.5'
       strokeLinecap='round'
       strokeLinejoin='round'
     />

@@ -15,7 +15,7 @@ export interface IProfileCardProps {}
 
 export default function ProfileCard(props: IProfileCardProps) {
   return (
-    <Box backgroundColor='primary' borderRadius='lg' w='100%' p={8}>
+    <Box backgroundColor='primary.500' borderRadius='lg' w='100%' p={8}>
       <HStack
         flexDirection={{ base: 'column-reverse', md: 'row' }}
         alignItems='flex-end'
@@ -25,7 +25,7 @@ export default function ProfileCard(props: IProfileCardProps) {
           color='primary'
           fontSize='xs'
           fontWeight='700'
-          w='14rem'
+          w='20rem'
           mt={{ base: 5, md: 0 }}
           leftIcon={<ArrowNarrowRightIcon color='primary' boxSize={4} />}
         >
@@ -59,7 +59,7 @@ export default function ProfileCard(props: IProfileCardProps) {
                 fontWeight='400'
                 fontSize='sm'
                 display='flex'
-                alignItems='center'
+                alignItems='flex-start'
                 justifyContent='flex-end'
                 gap={2}
               >

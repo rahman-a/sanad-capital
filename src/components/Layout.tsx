@@ -11,6 +11,7 @@ import Navigation from './Navigation'
 import Drawer from './Drawer'
 import Header from './Header'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 export interface ILayoutProps {
   children: React.ReactNode
 }
@@ -20,7 +21,15 @@ export default function Layout({ children }: ILayoutProps) {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [pageTitle, setPageTitle] = React.useState<string>('الرئيسية')
   const [activeItem, setActiveItem] = React.useState<number | null>(1)
+  const router = useRouter()
 
+  React.useEffect(() => {
+    if (router.asPath === '/finance-orders') {
+      setActiveItem(3)
+    } else if (router.asPath === '/') {
+      setActiveItem(1)
+    }
+  }, [router.asPath])
   return (
     <>
       <Head>

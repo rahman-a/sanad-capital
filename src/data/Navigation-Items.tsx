@@ -8,12 +8,12 @@ import {
 } from '@/assets/icons'
 
 export const navigation = [
-  { id: 1, label: 'الرئيسية', href: '#', icon: <HomeIcon /> },
+  { id: 1, label: 'الرئيسية', href: '/', icon: <HomeIcon /> },
   { id: 2, label: 'بيانات المنشأة', href: '#', icon: <EstablishmentIcon /> },
   {
     id: 3,
     label: 'طلبات التمويل',
-    href: '#',
+    href: '/finance-orders',
     icon: <CoinIcon />,
   },
   { id: 4, label: 'المحفظة', href: '#', icon: <WalletIcon /> },

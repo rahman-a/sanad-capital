@@ -1,5 +1,5 @@
 import { HamburgerIcon } from '@/assets/icons'
-import { Avatar, Box, Flex, HStack, Text } from '@chakra-ui/react'
+import { Avatar, Box, Flex, HStack, IconButton, Text } from '@chakra-ui/react'
 import { SearchIcon, BellIcon, ChevronDownIcon } from '@/assets/icons'
 import userPlaceholder from '@/assets/images/user_placeholder.png'
 import * as React from 'react'
@@ -58,7 +58,12 @@ export default function Header({ onOpen, pageTitle }: IHeaderProps) {
           alignItems='center'
           justifyContent='center'
         >
-          <BellIcon boxSize={{ base: 4, md: 6 }} />
+          <IconButton
+            bg='transparent'
+            aria-label='notification'
+            icon={<BellIcon boxSize={{ base: 4, md: 6 }} />}
+          />
+
           <Text
             as='span'
             position='absolute'
@@ -80,7 +85,11 @@ export default function Header({ onOpen, pageTitle }: IHeaderProps) {
           alignItems='center'
           justifyContent='center'
         >
-          <SearchIcon boxSize={{ base: 4, md: 6 }} />
+          <IconButton
+            bg='transparent'
+            aria-label='search'
+            icon={<SearchIcon boxSize={{ base: 4, md: 6 }} />}
+          />
         </Box>
       </HStack>
       <HStack>
